@@ -8,3 +8,7 @@
 <br>
 [link on the website that takes you to the meeting video](https://terencetan1021.github.io/Lab2_Starter/meetingvid.html)
 
+**Pictures**
+- [the main page w3validator](screenshots/main.png)
+- [the link to the meeting video w3validator](screenshots/meetingvid.png)
+
