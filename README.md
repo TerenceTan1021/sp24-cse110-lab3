@@ -1,5 +1,6 @@
 # Lab 2 - Starter
 <hr style="border:2px solid gray">
+
 # Part 1
 <hr style="border:2px solid gray">
 **Link to the main website**
