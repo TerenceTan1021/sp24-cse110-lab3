@@ -9,18 +9,54 @@
 <body>
     <!-- The header of the website used by h1 to highlight 
     the topic of the website-->
-    <h1>
-        Meeting for CSE-110
-    </h1>
-    <!-- creates a black bar to seperate the title and the website body-->
-    <div style="background-color: black">
-        nun-too special
-    </div>
-    <!-- End of the title-->
+    <header>
+        <h1>
+            Meeting for CSE-110
+        </h1>
+        <section>
+            this is a section
+        </section>
+        <b>
+            bold text
+        </b>
+        <br>
+        <strong>
+            strong text
+        </strong>
+        <br>
+        <i>
+            italic text
+        </i>
+        <br>
+        <em>
+            em text
+        </em>
+        
+        <!-- creates a black bar to seperate the title and the website body-->
+        <div style="background-color: black">
+            nun-too special
+        </div>
+
+    </header>
+    <main>
+        <!-- End of the title-->
 
     <!-- This will highlight tyhe start of the website will will 
     keep track of every thing that is done and recorded within the meeting
     so it kees track of everything that anyoen hasnt done-->
+    <h3>
+        nav bar
+    </h3>
+    <nav>
+        <ul>
+            <li><a href="#Attended">Attendence</a></li>
+            <li><a href="#Notes">Notes</a></li>
+            <li><a href="#Ideas">Ideas & Comments</a></li>
+            <li><a href="#Topics">Topics for next meeting</a></li>
+            <li><a href="#Pictures">Pictures Presented</a></li>
+        </ul>
+    </nav>
+    <hr>
     <h3>
         <span style="background-color:pink">
             Week 2
@@ -60,7 +96,7 @@
     <!-- This will be the list that will keep track off every one
     that has attended the meeting so if the name in not on
     then the following person has not attended for the day-->
-    <h3>
+    <h3 id="Attended">
         <span style="background-color:pink">
             Who has attended:
 
@@ -72,7 +108,7 @@
     <hr>
     <!-- The notes will be from what the 
     group memeber had gotten from the meeting -->
-    <h3>
+    <h3 id="Notes">
         <span style="background-color:pink">
             Notes from the meeting:
         </span>
@@ -97,7 +133,7 @@
     <hr>
     <!-- This section will be used to, keep track of new ideas
     that are presented in the group meeting-->
-    <h3>
+    <h3 id="Ideas">
         <span style="background-color:pink">
             New Ideas or comments:
         </span>
@@ -110,7 +146,7 @@
     <hr>
     <!-- Topics that are not covered form the meeting, will be covered int he 
     next meeting by having them at the top, so we willr each and be finished with it-->
-    <h3>
+    <h3 id="Topics">
         <span style="background-color:pink">
             Next meetings Topic:
         </span>
@@ -122,7 +158,7 @@
     <hr>
     <!-- As mentioned in the write up that are bound to be pictures
     when we decide to have the meeting so it will be here-->
-    <h3>
+    <h3 id="Pictures">
         <span style="background-color:pink">
             Pictures Presented:
         </span>
@@ -137,5 +173,28 @@
     alt="A screenshot of an example file on how to use the w3 website"
     height="500">
     <hr>
+    </main>
+    <footer>
+        <form>
+            <div>
+                <label for="role">status</label>
+                <select id="role" name="role">
+                    <option value="Student">Student</option>
+                    <option value="TA">TA</option>
+                    <option value="Tutor">Tutor</option>
+                    <option value="Prof">Prof</option>
+                </select>
+            </div>
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+            </div>
+        </form>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
