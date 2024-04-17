@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-color: rgb(87, 12, 12);
+    padding: 10px;
+}
+
+/*New sections*/
+#new-section{
+    border-style: outset;
+}
+#Attended{
+    border-style: outset;
+}
+#Notes{
+    border-style: outset;
+}
+#Ideas{
+    border-style: outset;
+}
+#Topics{
+    border-style: outset;
+}
+#Pictures{
+    border-style: outset;
+}
+#borderline{
+    background-color: rgb(8, 46, 19);
+    height: 30px;
+}
+/* The navagation bar*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(63, 3, 63);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: orange;
+    text-decoration; none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(160, 121, 49);
+
+}
+.navbar li{
+    float: left;
+}
+
+/*Gallery of the pictures*/
+.gallery{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid black;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+/*Links*/
+a:link{
+    color: blue
+}
+a:hover{
+    color: lightblue;
+    font-size: 1.1em;
+}
+a:active{
+    color:blueviolet;
+    font-size: 1.1em;
+}
+a:visited{
+    color: orange;
+
+}
+/*Grid*/
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header hi'
+    'Menu Menu main main main hi'
+    'Menu Menu footer footer footer hi';
+
+    gap: 5px;
+    background-color: purple;
+    padding: 5px;
+   
+}
+
+.container > div{
+    background-color: violet;
+    text-align: center;
+    font-size: 30px;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: main;
+}
+.item3{
+    grid-area: footer;
+}
+.item4{
+    grid-area: Menu;
+}
+.item5{
+    grid-area: hi;
+}
+/*On phone maybe?*/
+@media screen and(max-width:600px){
+    aside,section{
+        width: 100%;
+    }
+}
+
