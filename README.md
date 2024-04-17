@@ -1,4 +1,4 @@
-# Lab 2 - Starter
+# Lab 3
 <hr style="border:2px solid gray">
 
 # Part 1
