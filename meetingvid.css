@@ -1,22 +1,18 @@
-p{
-    border-style: solid;
-    border-width: 3px;
-}
-ul{
-    border-style: solid;
-    border-width: 3px;
-}
+
 aside{
     width: 20%;
     float: left;
+    padding: 10px;
 }
 section{
     width: 40%;
     float: left;
+    padding: 10px;
 }
 article{
     width: 40%;
     float: left;
+    padding: 10px;
 }
 /*On phone maybe?*/
 @media screen and(min-width:600px){
