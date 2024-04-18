@@ -19,8 +19,8 @@ article{
     float: left;
 }
 /*On phone maybe?*/
-@media screen and(max-width:600px){
-    aside,section,article{
+@media screen and(min-width:600px){
+    aside, section, article{
         width: 100%;
     }
 }
