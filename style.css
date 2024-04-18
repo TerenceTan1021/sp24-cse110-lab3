@@ -1,12 +1,23 @@
 body{
-    margin: 0px;
+    margin: 0in;
 }
 header{
     text-align: center;
     background-color: rgb(87, 12, 12);
-    padding: 10px;
+    padding: 5Q;
 }
-
+/*For the fixed cat position*/
+div.cat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+div.sticky{
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    border: 2px solid grey;
+}
 /*New sections*/
 #new-section{
     border-style: outset;
@@ -67,7 +78,7 @@ header{
 }
 
 .gallery:hover{
-    border: 1px solid black;
+    border: 2mm solid black;
 }
 
 .gallery img{
@@ -124,6 +135,25 @@ a:visited{
 .item5{
     grid-area: hi;
 }
+/* Flex box*/
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: orange;
+}
+.flex-container > div{
+    text-align: center;
+    color: blue;
+    background-color: violet;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
 /*On phone maybe?*/
 @media screen and(max-width:600px){
     aside,section{
