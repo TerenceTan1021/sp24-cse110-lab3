@@ -1,4 +1,6 @@
-
+/*Keep track of the design layout 
+with the media querie to organize it when'
+the screen goes much more smaller*/
 aside{
     width: 20%;
     float: left;
@@ -16,7 +18,14 @@ article{
 }
 /*On phone maybe?*/
 @media screen and(min-width:600px){
-    aside, section, article{
+    aside{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    article{
         width: 100%;
     }
 }
+
