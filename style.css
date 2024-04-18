@@ -21,21 +21,27 @@ div.sticky{
 /*New sections*/
 #new-section{
     border-style: outset;
+    font-family: sans-serif;
 }
 #Attended{
     border-style: outset;
+    font-family: sans-serif;
 }
 #Notes{
     border-style: outset;
+    font-family: sans-serif;
 }
 #Ideas{
     border-style: outset;
+    font-family: sans-serif;
 }
 #Topics{
     border-style: outset;
+    font-family: sans-serif;
 }
 #Pictures{
     border-style: outset;
+    font-family: sans-serif;
 }
 #borderline{
     background-color: rgb(8, 46, 19);
