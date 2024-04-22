@@ -26,7 +26,7 @@ div.sticky{
     position: sticky;
     top: 0;
     background-color: transparent;
-    border: 2px solid grey;
+    border: 2px solid #FF6;
 }
 /*New sections*/
 #new-section{
