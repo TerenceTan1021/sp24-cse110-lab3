@@ -139,13 +139,13 @@ a:visited{
 .item3{
     grid-area: footer;
 }
-
 .item4{
     grid-area: Menu;
 }
-.item5 .item6{
-    display: none;
+.item5{
     grid-area: hi;
+}
+.item6{
     grid-area: hello;
 }
 
@@ -169,15 +169,16 @@ a:visited{
     font-size: 30px;
 }
 
-h1 > h2{
-    margin: 0;
+/*Just changes the color of the text below the flex box*/
+.flex-container-con .flex-container ~ p{
+    color: yellow;
 }
 
-h3 ~ h4{
-    margin: 0;
-}
-h5 + h6{
-    margin: 0;
+.flex-container-con .flex-container + h7{
+    color: red;
 }
 
+article.combine{
+    color: blue;
+}
 
