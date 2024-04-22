@@ -1,5 +1,10 @@
 *{
-    margin: 0;
+    /* no use for these, I already know how to use it*/
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 0 0 0;
 }
 body{
     margin: 0in;
@@ -7,7 +12,8 @@ body{
 }
 header{
     text-align: center;
-    background-color: rgb(87, 12, 12);
+    color: orange;
+    background: linear-gradient(135deg, navy, orange);
     padding: 5Q;
 }
 /*For the fixed cat position*/
@@ -80,8 +86,9 @@ div.sticky{
 }
 
 .gallery .description{
-    padding: 10px;
-    text-align: center;
+        padding: 10px;
+        text-align: center;
+    
 }
 
 .gallery:hover{
@@ -140,6 +147,7 @@ a:visited{
     grid-area: Menu;
 }
 .item5{
+    display: none;
     grid-area: hi;
 }
 /* Flex box*/
@@ -156,6 +164,7 @@ a:visited{
     color: blue;
     background-color: violet;
     width: 100px;
+    height: auto;
     margin: 10px;
     line-height: 75px;
     font-size: 30px;

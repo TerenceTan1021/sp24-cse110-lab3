@@ -1,3 +1,7 @@
+
+details:has(+ summary){
+    margin-bottom: 0;
+}
 /*Keep track of the design layout 
 with the media querie to organize it when'
 the screen goes much more smaller*/
