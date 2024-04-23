@@ -13,7 +13,7 @@
 [link on the website that takes you to the meeting video](https://terencetan1021.github.io/sp24-cse110-lab3/meetingvid.html)
 
 **Pictures:**
-- [the main page w3validator](screenshots/main2.png)
+- [the main page w3validator](screenshots/main3.png)
 - [the link to the meeting video w3validator](screenshots/meetingvid2.png)
 
 
