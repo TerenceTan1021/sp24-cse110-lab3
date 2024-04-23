@@ -1,6 +1,6 @@
 
 details:has(+ summary){
-    margin-bottom: 0;
+    margin: 0;
 }
 /*Keep track of the design layout 
 with the media querie to organize it when'
