@@ -30,6 +30,7 @@ div.sticky{
 }
 /*New sections*/
 #new-section{
+    color-mix(in lch, plum, pink);
     border-style: outset;
     font-family: sans-serif;
 }
