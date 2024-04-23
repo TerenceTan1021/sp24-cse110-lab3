@@ -1,14 +1,5 @@
 *{
-    /* no use for these, I already know how to use it*/
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin: 0 0 0 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    margin: 0;
 }
 body{
     margin: 0ex;
@@ -65,7 +56,10 @@ div.sticky{
     list-style-type: none;
     background-color: rgb(63, 3, 63);
     padding: 0rem;
-    margin: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
     overflow: hidden;
 
 }
@@ -92,7 +86,10 @@ div.sticky{
 }
 
 .gallery .description{
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
     
 }
