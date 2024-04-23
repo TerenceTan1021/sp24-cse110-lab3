@@ -7,7 +7,7 @@
     margin: 0 0 0 0;
 }
 body{
-    margin: 0;
+    margin: 0ex;
     background: linear-gradient(135deg, rgb(250, 108, 250), rgb(248, 185, 66));
 }
 header{
@@ -59,8 +59,8 @@ div.sticky{
 .navbar ul{
     list-style-type: none;
     background-color: rgb(63, 3, 63);
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0cm;
     overflow: hidden;
 
 }
