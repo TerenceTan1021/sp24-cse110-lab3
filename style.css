@@ -12,7 +12,7 @@ body{
 }
 header{
     text-align: center;
-    color: orange;
+    color: hsl(39, 100%, 50%);
     background: linear-gradient(135deg, navy, orange);
     padding: 5Q;
 }
