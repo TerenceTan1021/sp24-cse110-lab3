@@ -22,13 +22,7 @@ article{
 }
 /*On phone maybe?*/
 @media screen and (min-width:600px){
-    aside{
-        width: 100%;
-    }
-    section{
-        width: 100%;
-    }
-    article{
+    aside,section,article{
         width: 100%;
     }
 }
